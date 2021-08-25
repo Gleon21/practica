@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Calcular";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <form action="./calcular" method="post">
+        <div class="form-group">
+            <label>Nombre</label>
+            
+                <input type="text" class="form-control" name="nombre" placeholder="nombre" id="nombre" />
+            
+        </div>
+        <div class="form-group">
+            <label>Valor Hora</label>
+            <input type="text" name="ValorHora" placeholder="Valor Hora" id="ValorHora" />
+        </div>
+        <div class="form-group">
+            <label>Antiguedad</label>
+            <input type="text" name="Antiguedad" placeholder="Antiguedad" id="Antiguedad" />
+        </div>
+        <div class="form-group">
+            <label>Horas Trabajadas</label>
+            <input type="text" name="HorasTrabajadas" placeholder="Horas Trabajadas" id="HorasTrabajadas" />
+        </div>
+
+        <div class="col-md-12" s>
+            <button class="btn-success">Calcular</button>
+        </div>
+    </form>
+</body>
+</html>
+
